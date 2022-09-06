@@ -1,9 +1,9 @@
 <h1> DAA - Class Assignment </h1>
 
 Name : Prathamesh Rajendra Rajbhoj <br>
-Sec  : 5A <br>
+Sec  : A <br>
+Sem  : 5 <br>
 Roll : 53 <br>
-
 <hr>
 
 <h3> Problem Name : <u> Possible Maximum Sum of Three Stacks </u> ( Stack Implementation ) </h3>
