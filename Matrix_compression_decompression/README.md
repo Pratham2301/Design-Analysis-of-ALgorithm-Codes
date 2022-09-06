@@ -1,10 +1,66 @@
+<h1> DAA - Class Assignment </h1>
+
+Name : Prathamesh Rajendra Rajbhoj <br>
+Sec  : A <br>
+Sem  : 5 <br>
+Roll : 53 <br>
+
+<hr>
+
+<h3> Open Problem Name : Matrix compression/decompression </h3>
+
+<br>
+
+Problem Statement : Given a Random 100x100 matrix <br>
+For compression: take keyboard input c=50: reduce 100x100 to 50x50<br>
+For decompression: take keyboard input c=20, now matrix will be 70x70<br>
+
+<ul>
+<li>Code : C++ Implementation </li>
+</ul>
+
+<hr>
+
+Logic :
+
+<ul style="list-style-type:square;">
+  <li>Generate a 2D Matrx using rand() function </li>
+  <li>Convert it into 3D Matrix</li>
+  <li>Use orignal 2D matrix to generate 3D Matrx</li>
+  <li>Each layer of 3D matrix will be having different dimension</li>
+  <li>Layer 1 will have 1x1, Layer 2 will have 2x2, .... Layer 100 will have 100x100 matrix</li>
+  <li>Depending upon user requirements, chose a layer and print 2D matrix present in that layer</li>
+</ul>
+
+<hr>
+
+Algorithm :
+
+<ol style="list-style-type:square;">
+  <li> Take input for all 3 stacks & while taking input calculate and store sum of all 3 stacks</li>
+  <li> Check if sum of all 3 stacks are equal or not</li>
+  <li> If sum1==sum2==sum3, then Possible maximum sum is sum1. Exit</li>
+  <li> If any 1 of the stack becomes empty, then Possible maximum sum is 0. Exit</li>
+  <li> Otherwise, pop the top element of stack having maximum sum</li>
+  <li> Update sum for that stack</li>
+  <li> Repeat step 2, 3, 4, 5, 6</li> 
+  <li> Exit</li>
+</ol>
+
+<hr>
+
+<h2> TEST CASES </h2>
+
+// 1st value of array will be pushed down in stack <br>
+// last value of array will be top of stack <br><br>
+
 Choices Available : 
 1. Comression       
 2. Decomression     
 3. Exit
 
-1
-Enter Value by which you want to compress : 50
+1<br>
+Enter Value by which you want to compress : 50<br>
 
 
 Current Matrix Size : 50 x 50
@@ -238,18 +294,35 @@ Choices Available :
 1. Comression
 2. Decomression
 3. Exit
+<br>
+2<br>
+Enter Value by which you want to expand : 90<br>
 
-2
-Enter Value by which you want to expand : 90
 
-
-Invalid Input, Please Verify Size
+Invalid Input, Please Verify Size<br>
 
 
 Choices Available :
 1. Comression
 2. Decomression
 3. Exit
+<br>
+3<br>
+Exit!!!<br>
 
-3
-Exit!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
