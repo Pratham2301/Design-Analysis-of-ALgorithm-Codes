@@ -6,7 +6,7 @@ Sem  : 5 <br>
 Roll : 53 <br>
 <hr>
 
-<h3> Problem Name : <u> Possible Maximum Sum of Three Stacks </u> ( Stack Implementation ) </h3>
+<h3> Problem Name : <u> Possible Maximum Equal Sum of Three Stacks </u> ( Stack Implementation ) </h3>
 
 <br>
 
