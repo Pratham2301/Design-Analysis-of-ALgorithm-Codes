@@ -40,3 +40,41 @@ Algorithm :
   <li> Repeat step 2, 3, 4, 5, 6</li> 
   <li> Exit</li>
 </ol>
+
+<hr>
+
+<h2> TEST CASES </h2>
+
+// 1st value of array will be pushed down in stack <br>
+// last value of array will be top of stack <br><br>
+
+INPUT 1 : 
+
+Enter Size of 1st Stack : 3 <br>
+Enter values to be pushed in Stack 1 : 3 2 1 <br>
+Enter Size of 2nd stack : 3<br>
+Enter values to be pushed in Stack 2 : 4 1 2<br>
+Enter Size of 3rd stack : 4<br>
+Enter values to be pushed in Stack 3 : 1 2 2 2<br>
+<br>
+OUTUT 1<br>
+
+MAXIMUM SUM IS POSSIBLE<br>
+SUM IS : 5<br>
+
+<hr>
+
+
+INPUT 2 : 
+
+Enter Size of 1st Stack : 3 <br>
+Enter values to be pushed in Stack 1 : 3 5 8 <br>
+Enter Size of 2nd stack : 5<br>
+Enter values to be pushed in Stack 2 : 2 2 4 9 9<br>
+Enter Size of 3rd stack : 4<br>
+Enter values to be pushed in Stack 3 : 2 1 2 3<br>
+<br>
+OUTUT 2<br>
+
+MAXIMUM SUM IS POSSIBLE<br>
+SUM IS : 8<br>
