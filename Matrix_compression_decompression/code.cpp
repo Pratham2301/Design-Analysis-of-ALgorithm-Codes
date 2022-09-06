@@ -104,6 +104,7 @@ void solve()
 
         if(sz>100 || sz<1)
         {
+            sz-=inp;
             cout<<"Invalid Input, Please Verify Size\n\n"<<endl;
             continue;
         }
