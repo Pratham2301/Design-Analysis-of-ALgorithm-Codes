@@ -37,22 +37,27 @@ Logic :
 Algorithm :
 
 <ol style="list-style-type:square;">
-  <li> Take input for all 3 stacks & while taking input calculate and store sum of all 3 stacks</li>
-  <li> Check if sum of all 3 stacks are equal or not</li>
-  <li> If sum1==sum2==sum3, then Possible maximum sum is sum1. Exit</li>
-  <li> If any 1 of the stack becomes empty, then Possible maximum sum is 0. Exit</li>
-  <li> Otherwise, pop the top element of stack having maximum sum</li>
-  <li> Update sum for that stack</li>
-  <li> Repeat step 2, 3, 4, 5, 6</li> 
-  <li> Exit</li>
+  <li> Create a 2D Matrix of size 100x100 using rand() function</li>
+  <li> Generate a 3D matrix using this 2D matrix</li>
+  <li> Size of kth layer of 3D Matrix will be K x K</li>
+  <li> Matrix will look like stairs from front and side</li>
+  <li> for 1st layer, insert 1x1 section of original matrix in 3D Matrix</li>
+  <li> Similarly for 2nd layer, add 2x2 section of original matrix in 3D matrix</li>
+  <li>...</li>
+  <li>...</li>
+  <li>...</li>
+  <li> Similarly for 100th layer, add 100x100 section of original matrix in 3D matrix</li>
+  <li> Take user inputs for compression and decompression value</li> 
+  <li> For compression, subtract input value from current layer and show matrix present in that layer</li>
+  <li> For Decompression, add input value to current layer and show matrix present in that layer</li>
+  <li> End</li>
 </ol>
 
 <hr>
 
 <h2> TEST CASES </h2>
 
-// 1st value of array will be pushed down in stack <br>
-// last value of array will be top of stack <br><br>
+// Enter +ve integer as inputs for each case <br>
 
 Choices Available : 
 1. Comression       
