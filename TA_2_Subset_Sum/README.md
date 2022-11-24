@@ -7,9 +7,26 @@ Roll : 53 <br>
 
 <hr>
 
-# Implement <b><u>Sum of Subset </u></b> problem using Dynamic Programming approach and demonstrate any two applications in the form of test cases.
+# Implement <ins>**SUM OF SUBSET**</ins> problem using Dynamic Programming approach and demonstrate any two applications in the form of test cases.
 
 <p> For Roll No: 24,45,52,53 <p>
+
+<hr>
+
+## LOGIC 
+
+```
+
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+#define pb push_back
+#define ff first
+#define ss second
+#define sortvec(v)
+```
+
+
 
 <hr>
 
@@ -25,6 +42,8 @@ typedef unsigned long long ull;
 #define ss second
 #define sortvec(v) sort(v.begin(), v.end())
 #define revvec(v) reverse(v.begin(), v.end())
+
+
 
 vector<int> path;
 
@@ -59,6 +78,11 @@ void findSubset(vector<int> &v, int ind, int target, vector<vector<int>> &dp)
         }
     }
 }
+
+
+
+
+
 
 bool subsetSum(vector<int> &v, int ind, int target, vector<vector<int>> &dp)
 {
@@ -101,18 +125,20 @@ bool subsetSum(vector<int> &v, int ind, int target, vector<vector<int>> &dp)
     return dp[ind][target] = take | notTake;
 }
 
+
+
+
+
+
+
 int main()
 {
     vector<int> v = {1, 2, 3, 5, 8, 9, 10};
 
-    // vector<int>v={1,1,1,8};
-
-    // vector<int>v={11,11,11,11,11};
-
-    // vector<int>v={11};
-
     int n = v.size();
     int target = 17;
+    
+    
 
     cout << "Array is : ";
     for (auto i : v)
@@ -120,14 +146,12 @@ int main()
         cout << i << " ";
     }
     cout << "\n\n";
+    
+    
 
     vector<vector<int>> dp(n, vector<int>(target + 1, -1));
 
-    // for(int i=0;i<n;i++)
-    // {
-    //     dp[i][0]=1;
-    //     // setting 1 because for target = 0, empty subset is always possible
-    // }
+
 
     int ans = subsetSum(v, n - 1, target, dp);
 
@@ -141,18 +165,10 @@ int main()
         return 0;
     }
 
-    // Printing DP MATRIX for Verification
 
-    // for (auto i : dp)
-    // {
-    //     for (auto j : i)
-    //     {
-    //         cout << j << "\t";
-    //     }
-    //     cout << endl;
-    // }
 
     findSubset(v, n - 1, target, dp);
+    
 
     cout << "Possible Subset is : ";
     for (auto i : path)
@@ -163,4 +179,56 @@ int main()
 
     return 0;
 }
+```
+
+
+
+<hr>
+
+## Test Cases
+```
+Array is : 1 2 3 5 8 9 10 
+
+Target is : 17
+
+YES, Subset with sum 17 is present 
+
+Possible Subset is : 2 5 10 
+
+```
+
+```
+Array is : 1 1 1 8 
+
+Target is : 11
+
+YES, Subset with sum 11 is present 
+
+Possible Subset is : 1 1 1 8 
+
+
+```
+
+```
+Array is : 1 2 3 4 
+
+Target is : 15
+
+No Possible Subset
+```
+
+
+
+
+<hr>
+
+## APPLICATIONS
+```
+1. Coin on shop
+
+```
+
+```
+2.
+
 ```
