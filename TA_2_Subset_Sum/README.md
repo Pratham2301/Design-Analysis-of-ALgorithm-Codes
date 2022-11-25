@@ -15,20 +15,30 @@ Roll : 53 <br>
 
 ## LOGIC 
 
-```
-
-using namespace std;
-typedef long long ll;
-typedef unsigned long long ull;
-#define pb push_back
-#define ff first
-#define ss second
-#define sortvec(v)
-```
-
-
 ![Screenshot](./SubsetSumLogicImage.png)
 
+```
+- Create a DP matrix as shown in figure above
+
+- Start Recursion from dp[n][target]
+
+- for every index we have 2 options
+        -> to consider index in subset
+        -> not consider index in subset
+        
+- We will have overlapping Subproblems, and we will save time by not calculating overlapping subproblems again and again
+
+- once we calculate & its value in dp[][] is changed from -1 to 0/1, we wont be calculating it again if we encounter that subproblem again in recursion
+
+```
+
+## Time Complexity : O(n<sup>2</sup> )
+
+## Space Complexity : O(n<sup>2</sup> + 2*n )
+
+n<sup>2</sup> for Dp matrix <br>
+n for Recursion stack <br>
+n for array <br>
 
 <hr>
 
@@ -252,11 +262,11 @@ No Possible Subset
 
 ## APPLICATIONS
 ```
-1. Coin on shop
+1. Chosing Currency while shopping
 
 ```
 
 ```
-2.
+2. Chosing Currency while shopping
 
 ```
