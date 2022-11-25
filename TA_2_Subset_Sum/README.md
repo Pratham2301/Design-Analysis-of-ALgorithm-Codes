@@ -284,5 +284,3 @@ No Possible Subset
 -> Here we can use {20 100 500} weighs to measure item of weight 620
 
 ```
-
-![Screenshot](./applicationweigh.png)
