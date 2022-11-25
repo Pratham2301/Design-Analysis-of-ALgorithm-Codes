@@ -1,4 +1,4 @@
-<h1> DAA - TA 2 </h1>
+<h1> DAA - TA 2 (25th Nov 2022)</h1>
 
 Name : Prathamesh Rajendra Rajbhoj <br>
 Sec  : A <br>
@@ -264,11 +264,25 @@ No Possible Subset
 
 ## APPLICATIONS
 ```
-1. Chosing Currency while shopping
+1. Chosing Exact amount of money while shopping
+
+-> Suppose we are at grocery shop and we need to pay some exact amount (say 17 in cash) to owner.
+-> We have currency present with us as : {1 2 3 5 8 9 10}
+-> If we dont have exact amount to pay, we can not buy items
+-> So here, we can use subset sum problem to find out if we can pay exact amount of money to owner or not
+-> As shown in test case 1, we can pay owner 17 by giving him subset {2 5 10}
 
 ```
 
 ```
-2. Chosing Currency while shopping
+2. Chosing Weights in Old-Weighing Machines
+
+-> In Old-Weighing Machines (which were used earlier), blocks of different weights were used to measure weight of items
+-> Suppose we have blocks of weights {10 20 50 100 250 500 1000}
+-> and we need to weigh some items (lets same weigh = 620)
+-> we can use subset sum problem + hit and trial method to chose some subset and find weight of item
+-> Here we can use {20 100 500} weighs to measure item of weight 620
 
 ```
+
+![Screenshot](./applicationweigh.png)
