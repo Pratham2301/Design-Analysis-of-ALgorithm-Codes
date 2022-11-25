@@ -26,7 +26,8 @@ typedef unsigned long long ull;
 #define sortvec(v)
 ```
 
-![Screenshot](./SubsetSumImage.png)
+
+![Screenshot](./SubsetSumLogicImage.png)
 
 
 <hr>
