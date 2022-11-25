@@ -26,6 +26,8 @@ Roll : 53 <br>
         -> to consider index in subset
         -> not consider index in subset
         
+- If we find sum of subset = target, return true, else continue recursion    
+        
 - We will have overlapping Subproblems, and we will save time by not calculating overlapping subproblems again and again
 
 - once we calculate & its value in dp[][] is changed from -1 to 0/1, we wont be calculating it again if we encounter that subproblem again in recursion
