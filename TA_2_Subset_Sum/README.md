@@ -34,13 +34,13 @@ Roll : 53 <br>
 
 ```
 
-## Time Complexity : O(n*target )
+## Time Complexity : ```O(n*target )```
 
-## Space Complexity : O(n*target + 2*n )
+## Space Complexity : ```O(n*target + 2*n )```
 
-n*target for Dp matrix <br>
-max(n,target) for Recursion stack <br>
-n for array <br>
+n*target -> for Dp matrix <br>
+n -> for Recursion stack <br>
+n  -> for array <br>
 
 <hr>
 
