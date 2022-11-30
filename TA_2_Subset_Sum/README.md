@@ -278,8 +278,8 @@ No Possible Subset
 2. Chosing Weights in Old-Weighing Machines
 
 -> In Old-Weighing Machines (which were used earlier), blocks of different weights were used to measure weight of items
--> Suppose we have blocks of weights {10 20 50 100 250 500 1000}
--> and we need to weigh some items (lets same weigh = 620)
+-> Suppose we have blocks of weights Array={10 20 50 100 250 500 1000}
+-> and we need to weigh some items (lets say its weight = 620)
 -> we can use subset sum problem + hit and trial method to chose some subset and find weight of item
 -> Here we can use {20 100 500} weighs to measure item of weight 620
 
