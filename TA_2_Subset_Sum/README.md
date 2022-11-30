@@ -281,6 +281,6 @@ No Possible Subset
 -> Suppose we have blocks of weights Array={10 20 50 100 250 500 1000}
 -> and we need to weigh some items (lets say its weight = 620)
 -> we can use subset sum problem to chose some subset and find weight of item
--> Here we can use {20 100 500} weighs to measure item of weight 620
+-> Here we can use {20 100 500} blocks to measure item of weight 620
 
 ```
